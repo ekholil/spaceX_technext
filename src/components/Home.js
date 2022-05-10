@@ -10,7 +10,7 @@ import Filter from "./Filter";
 import Footer from "./Footer";
 
 const Home = () => {
-  const { launces, filteredItems, filteredByDate } = useSelector((state) => state.launce);
+  const { launces, filteredItems } = useSelector((state) => state.launce);
 
   const dispatch = useDispatch();
   useEffect(() => {
