@@ -34,9 +34,9 @@ const Home = () => {
             <DataCard data={data} key={index} />
           ))}
         </Row>
-        {/* {displayData.length === 0 && <div className="d-flex justify-content-center">
+        {displayData.length === 0 && <div className="d-flex justify-content-center">
           <img src="/loader.gif" alt="loader" />
-          </div>} */}
+          </div>}
       </Container>
       <Footer />
     </div>
